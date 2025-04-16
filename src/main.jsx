@@ -18,10 +18,14 @@ const router=createBrowserRouter([
         index: true, Component:Home,
       },
       {
-        path:'loptop', Component:Loptop,
+        path:'laptop', Component:Loptop,
       },
       {
         path:'mobiles', Component:Mobiles
+      },
+
+      {
+        
       }
     ]
   },
