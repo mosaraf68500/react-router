@@ -9,7 +9,7 @@ const Users = () => {
 
     return (
         <div>
-            <h1>users data</h1>
+            {/* <h1>users data</h1> */}
             {
                 users.map(user =><User user={user} key={user.id}></User>)
             }
